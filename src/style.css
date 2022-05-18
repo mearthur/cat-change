@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+header { 
+    display: flex;
+    margin-inline: auto;
+    width: 23.4rem;
+
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+
+}
+h1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+h1 span{
+    color: hsl(39, 100%, 50%);
+}
+body{
+    background:hsl(0, 0%, 14%) ;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+
+button { 
+    font-family:'Koulen', cursive;
+    font-size: 15px;
+    border-radius: 8rem;
+    display: block;
+    margin: 0.1rem;
+    padding: 1rem 5rem;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0.4rem;
+
+    color:hsl(39, 100%, 50%);
+    background:rgb(255, 255, 255);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer; 
+
+
+}
+
+.container-button{
+    padding: 2rem 0;
+    background: hsl(17, 71%, 52%);
+
+    
+}
+
+main {
+    margin-inline: auto;
+    border-radius: 24px;
+    width: 23.4rem;
+    overflow: hidden;
+}
+
+.cat-img{
+    display: block;
+    object-fit: cover;
+    width: 23.4rem;
+    height: 23.4rem;
+
+
+}
+.logcat{
+    height: 7rem;
+
+
+}
